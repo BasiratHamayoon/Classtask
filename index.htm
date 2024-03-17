@@ -7,46 +7,62 @@
 </head>
 <style>
     body{
-        background:darkslategrey;
+        background:white;
     }
     
     #web{
         color: white;
         font-style:normal;
     }
-    .submit-button{
-        width: 200px;
-    }
     input[type="submit"]{
         font-size: 20px;
-        size: 40px;
         background: green;
         color: aliceblue;
         border: 0cap;
-        height: 30px;
+        height: 50px;
+        border-radius: 20px ;
+        width: 260px;
     }
     input[type="text"]{
-        height: 30px;
+        height: 50px;
         border: 0cap;
+        border-radius: 20px;
+        background: lightgrey;
     }
     input[type="password"]{
-        height: 30px;
-        border: 0cap
+        height: 50px;
+        border: 0cap;
+        border-radius: 20px;
+        background: lightgrey;
+    }
+    fieldset
+    {
+        width: 12cm;
+        border: 0cap;
+        background-color: rgb(34, 59, 59) ;
+        height: 12cm;
+        border-radius: 20px;
+        f
+
     }
 
 
 </style>
 <body>
-    <center>
+    
         <form>
-    <h2 id="web"><b>USER LOGIN</b></h2>
+            <center>
+            <fieldset>
+    <h2 id="web"><b>USER LOGIN</b></h2><br>
     <img src="./icons/user.png" width="20" height="20">
-    <input class=" input feild" type="text" placeholder="Username" maxlength="20" required size="50"><br><br>
+    <input class=" input feild" type="text" placeholder="Username" maxlength="20" required size="38"><br><br>
     <img src="./icons/padlock.png" width="20" height="20" >
-   <input class=" input feild" type="password" placeholder="password" maxlength="20" required size="50"><br><br>
-   <input type="submit" value="LOG IN" class="submit-button">
+   <input class=" input feild" type="password" placeholder="Password" maxlength="20" required size="38"><br><br>
+   <input type="submit" value="LOGIN" size="35">
+            </fieldset>
+            </center>
    </form>
-    </center>
+    
 
     
 </body>
